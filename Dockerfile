@@ -13,7 +13,7 @@ ENV DB_MYSQLDB_HOST=mysql+ssl://aws.connect.psdb.cloud
 ENV DB_MYSQLDB_PORT=3306
 ENV DB_MYSQLDB_USER=$MYSQL_USER
 ENV DB_MYSQLDB_PASSWORD=$MYSQL_PASSWORD
-ENV MYSQL_ATTR_SSL_CA=/path/to/cert.pem # atualize com o caminho para o certificado SSL
+ENV MYSQL_ATTR_SSL_CA=/path/to/cert.pem
 
 ENV N8N_BASIC_AUTH_ACTIVE=true
 ENV N8N_BASIC_AUTH_USER=$MYSQL_USER
